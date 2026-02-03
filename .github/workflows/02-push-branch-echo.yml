@@ -22,4 +22,4 @@ jobs:
         # main이 아닌 다른 브랜치에 push 된 경우에만 이 step이 실행됩니다.
         if: ${{ github.ref != 'refs/heads/main' }}
         # GITHUB_REF_NAME 은 브랜치명만 담긴 환경변수입니다(예: feature/login).
-        run: echo "main이 아닌 브랜치(${GITHUB_REF_NAME})에 push 되었습니다."
+        run: echo "main이 아닌 브랜치(${GITHUB_REF_NAME})에 push 되었습니다.!"
